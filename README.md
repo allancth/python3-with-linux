@@ -1,6 +1,6 @@
 # Python 3 with Linux (2017)
 
-This is a introductory class to programming with Python 3 using Linux.
+This is an introductory class to programming with Python 3 using Linux.
 
 Slides are available [here][1].
 
