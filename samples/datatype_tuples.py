@@ -28,3 +28,8 @@ l = [ ("Bob", "Male", 31), t ]
 for i in l:
     print(i)
 
+a = [ chr(i) for i in range(ord("A"), ord("Z") + 1) ]
+n = [ i for i in range(ord("A"), ord("Z") + 1) ]
+t = zip(a, n)
+print(list(t))
+
