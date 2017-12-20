@@ -1,6 +1,19 @@
 # Python 3 with Linux (2017)
 
-This is an introductory class to programming with Python 3 using Linux.
+This is an introductory class to programming with Python 3 using Linux. Topics:
+
+* Distros
+* Boot Process
+* Kernel Space & User Space
+* Programming Languages
+* Python: Data Types
+* Python: Arrays
+* Python: Control Flows
+* Python: Input & Output
+* Scripts & Automation
+* Data Wrangling
+* Structured Data
+* Object Oriented Principles
 
 Slides are available [here][1].
 
