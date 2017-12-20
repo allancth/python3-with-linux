@@ -21,6 +21,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 # SOFTWARE.
 
+from datetime import datetime
+
 def add(a: int, b: int) -> int:
     return a + b
 
@@ -53,4 +55,14 @@ greet()
 
 for i in range(10):
     print(fib(i))
+
+def get_date():
+    return datetime.now().day, datetime.now().month, datetime.now().year
+
+t = get_date()
+print(t)
+print("{0}-{1}-{2}".format(t[2], t[1], t[0]))
+
+d, m, y = get_date()
+print("{0}-{1}-{2}".format(y, m, d))
 
