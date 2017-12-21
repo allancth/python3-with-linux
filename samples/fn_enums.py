@@ -49,9 +49,15 @@ def execute(a, b, op: Operation):
     else:
         raise OperationNotSupportedException(op)
 
+for e in Operation:
+    print(e)
+
+e = Operation.ADD
+print("{0} = {1}".format(e.name, e.value))
+
 r = execute(1, 2, Operation.ADD)
 print(r)
 
-r = execute(1, 2, "pow")
-print(r)
+# r = execute(1, 2, "pow")
+# print(r)
 
